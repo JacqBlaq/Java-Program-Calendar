@@ -43,6 +43,28 @@ public class Calendar_Program {
 					+ "1 = Sunday \n2 = Monday \n3 = Tuesday \n4 = Wednesday \n5 = Thursday \n6 = Friday \n7 = Saturday"
 					+ "\n(Integers Only)"));
 		}
+		//Print out The year and Start Day of the year
+		System.out.println("Year: " + year);
+		switch (startDay) {
+			case 1: day_of_week = "Sunday";
+				break;
+			case 2: day_of_week = "Monday";
+				break;
+			case 3: day_of_week = "Tuesday";
+				break;
+			case 4: day_of_week = "Wednesday";
+				break;
+			case 5: day_of_week = "Thursday";
+				break;
+			case 6: day_of_week = "Friday";
+				break;
+			case 7: day_of_week = "Saturday";
+				break;
+		
+		}
+		System.out.println("Start Day: " + day_of_week);
+		System.out.println();
+		
 		
 		//for loop to print out calendar
 		for(int i = 0; i < 12; i++) {
