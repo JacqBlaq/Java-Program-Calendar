@@ -160,6 +160,7 @@ public class Calendar_Program {
 					break;
 			}//switch
 			System.out.println();
+			System.out.println();
 			
 		}//for
 	}//Main
